@@ -32,5 +32,5 @@ setup(
     include_package_data=True,
     zip_safe=False,
     classifiers=classifiers,
-    install_requires=['aiogithubapi'],
+    install_requires=['aiohttp', 'elasticsearch-connectors'],
 )
